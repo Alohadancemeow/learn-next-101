@@ -1,5 +1,6 @@
 import React from 'react'
 import { useRouter } from 'next/router'
+import Layout from '../../components/Layout';
 
 const EventPage = () => {
 
@@ -8,10 +9,10 @@ const EventPage = () => {
     console.log(router);
     
     return (
-        <div>
+        <Layout>
             <h1>My event</h1>
             <h3>{router.query.slug}</h3>
-        </div>
+        </Layout>
     )
 }
 

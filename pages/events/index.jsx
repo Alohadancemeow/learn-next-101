@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 
 const index = () => {
     return (
-        <div>
-            <h1>Events</h1>
-        </div>
+        <Layout>
+            <h1>Events index page</h1>
+        </Layout>
     )
 }
 
